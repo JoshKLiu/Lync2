@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86F9E2721CAA3E9100B610BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F9E2711CAA3E9100B610BD /* AppDelegate.swift */; };
+		86F9E2741CAA3E9100B610BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F9E2731CAA3E9100B610BD /* ViewController.swift */; };
+		86F9E2771CAA3E9100B610BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F9E2751CAA3E9100B610BD /* Main.storyboard */; };
+		86F9E2791CAA3E9100B610BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F9E2781CAA3E9100B610BD /* Assets.xcassets */; };
+		86F9E27C1CAA3E9100B610BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F9E27A1CAA3E9100B610BD /* LaunchScreen.storyboard */; };
+		86F9E2871CAA3E9100B610BD /* Lync2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F9E2861CAA3E9100B610BD /* Lync2Tests.swift */; };
+		86F9E2921CAA3E9100B610BD /* Lync2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F9E2911CAA3E9100B610BD /* Lync2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86F9E2831CAA3E9100B610BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86F9E2661CAA3E9100B610BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86F9E26D1CAA3E9100B610BD;
+			remoteInfo = Lync2;
+		};
+		86F9E28E1CAA3E9100B610BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86F9E2661CAA3E9100B610BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86F9E26D1CAA3E9100B610BD;
+			remoteInfo = Lync2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86F9E26E1CAA3E9100B610BD /* Lync2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lync2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F9E2711CAA3E9100B610BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86F9E2731CAA3E9100B610BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86F9E2761CAA3E9100B610BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86F9E2781CAA3E9100B610BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86F9E27B1CAA3E9100B610BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86F9E27D1CAA3E9100B610BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F9E2821CAA3E9100B610BD /* Lync2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lync2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F9E2861CAA3E9100B610BD /* Lync2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lync2Tests.swift; sourceTree = "<group>"; };
+		86F9E2881CAA3E9100B610BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F9E28D1CAA3E9100B610BD /* Lync2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lync2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F9E2911CAA3E9100B610BD /* Lync2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lync2UITests.swift; sourceTree = "<group>"; };
+		86F9E2931CAA3E9100B610BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86F9E26B1CAA3E9100B610BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F9E27F1CAA3E9100B610BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F9E28A1CAA3E9100B610BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86F9E2651CAA3E9100B610BD = {
+			isa = PBXGroup;
+			children = (
+				86F9E2701CAA3E9100B610BD /* Lync2 */,
+				86F9E2851CAA3E9100B610BD /* Lync2Tests */,
+				86F9E2901CAA3E9100B610BD /* Lync2UITests */,
+				86F9E26F1CAA3E9100B610BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86F9E26F1CAA3E9100B610BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86F9E26E1CAA3E9100B610BD /* Lync2.app */,
+				86F9E2821CAA3E9100B610BD /* Lync2Tests.xctest */,
+				86F9E28D1CAA3E9100B610BD /* Lync2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86F9E2701CAA3E9100B610BD /* Lync2 */ = {
+			isa = PBXGroup;
+			children = (
+				86F9E2711CAA3E9100B610BD /* AppDelegate.swift */,
+				86F9E2731CAA3E9100B610BD /* ViewController.swift */,
+				86F9E2751CAA3E9100B610BD /* Main.storyboard */,
+				86F9E2781CAA3E9100B610BD /* Assets.xcassets */,
+				86F9E27A1CAA3E9100B610BD /* LaunchScreen.storyboard */,
+				86F9E27D1CAA3E9100B610BD /* Info.plist */,
+			);
+			path = Lync2;
+			sourceTree = "<group>";
+		};
+		86F9E2851CAA3E9100B610BD /* Lync2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				86F9E2861CAA3E9100B610BD /* Lync2Tests.swift */,
+				86F9E2881CAA3E9100B610BD /* Info.plist */,
+			);
+			path = Lync2Tests;
+			sourceTree = "<group>";
+		};
+		86F9E2901CAA3E9100B610BD /* Lync2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				86F9E2911CAA3E9100B610BD /* Lync2UITests.swift */,
+				86F9E2931CAA3E9100B610BD /* Info.plist */,
+			);
+			path = Lync2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86F9E26D1CAA3E9100B610BD /* Lync2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F9E2961CAA3E9100B610BD /* Build configuration list for PBXNativeTarget "Lync2" */;
+			buildPhases = (
+				86F9E26A1CAA3E9100B610BD /* Sources */,
+				86F9E26B1CAA3E9100B610BD /* Frameworks */,
+				86F9E26C1CAA3E9100B610BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lync2;
+			productName = Lync2;
+			productReference = 86F9E26E1CAA3E9100B610BD /* Lync2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86F9E2811CAA3E9100B610BD /* Lync2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F9E2991CAA3E9100B610BD /* Build configuration list for PBXNativeTarget "Lync2Tests" */;
+			buildPhases = (
+				86F9E27E1CAA3E9100B610BD /* Sources */,
+				86F9E27F1CAA3E9100B610BD /* Frameworks */,
+				86F9E2801CAA3E9100B610BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86F9E2841CAA3E9100B610BD /* PBXTargetDependency */,
+			);
+			name = Lync2Tests;
+			productName = Lync2Tests;
+			productReference = 86F9E2821CAA3E9100B610BD /* Lync2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86F9E28C1CAA3E9100B610BD /* Lync2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F9E29C1CAA3E9100B610BD /* Build configuration list for PBXNativeTarget "Lync2UITests" */;
+			buildPhases = (
+				86F9E2891CAA3E9100B610BD /* Sources */,
+				86F9E28A1CAA3E9100B610BD /* Frameworks */,
+				86F9E28B1CAA3E9100B610BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86F9E28F1CAA3E9100B610BD /* PBXTargetDependency */,
+			);
+			name = Lync2UITests;
+			productName = Lync2UITests;
+			productReference = 86F9E28D1CAA3E9100B610BD /* Lync2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86F9E2661CAA3E9100B610BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Liu, Joshua";
+				TargetAttributes = {
+					86F9E26D1CAA3E9100B610BD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					86F9E2811CAA3E9100B610BD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 86F9E26D1CAA3E9100B610BD;
+					};
+					86F9E28C1CAA3E9100B610BD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 86F9E26D1CAA3E9100B610BD;
+					};
+				};
+			};
+			buildConfigurationList = 86F9E2691CAA3E9100B610BD /* Build configuration list for PBXProject "Lync2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86F9E2651CAA3E9100B610BD;
+			productRefGroup = 86F9E26F1CAA3E9100B610BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86F9E26D1CAA3E9100B610BD /* Lync2 */,
+				86F9E2811CAA3E9100B610BD /* Lync2Tests */,
+				86F9E28C1CAA3E9100B610BD /* Lync2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86F9E26C1CAA3E9100B610BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F9E27C1CAA3E9100B610BD /* LaunchScreen.storyboard in Resources */,
+				86F9E2791CAA3E9100B610BD /* Assets.xcassets in Resources */,
+				86F9E2771CAA3E9100B610BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F9E2801CAA3E9100B610BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F9E28B1CAA3E9100B610BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86F9E26A1CAA3E9100B610BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F9E2741CAA3E9100B610BD /* ViewController.swift in Sources */,
+				86F9E2721CAA3E9100B610BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F9E27E1CAA3E9100B610BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F9E2871CAA3E9100B610BD /* Lync2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F9E2891CAA3E9100B610BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F9E2921CAA3E9100B610BD /* Lync2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86F9E2841CAA3E9100B610BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86F9E26D1CAA3E9100B610BD /* Lync2 */;
+			targetProxy = 86F9E2831CAA3E9100B610BD /* PBXContainerItemProxy */;
+		};
+		86F9E28F1CAA3E9100B610BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86F9E26D1CAA3E9100B610BD /* Lync2 */;
+			targetProxy = 86F9E28E1CAA3E9100B610BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86F9E2751CAA3E9100B610BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F9E2761CAA3E9100B610BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86F9E27A1CAA3E9100B610BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F9E27B1CAA3E9100B610BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86F9E2941CAA3E9100B610BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86F9E2951CAA3E9100B610BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86F9E2971CAA3E9100B610BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lync2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshkliu.Lync2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86F9E2981CAA3E9100B610BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lync2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshkliu.Lync2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86F9E29A1CAA3E9100B610BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Lync2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshkliu.Lync2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lync2.app/Lync2";
+			};
+			name = Debug;
+		};
+		86F9E29B1CAA3E9100B610BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Lync2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshkliu.Lync2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lync2.app/Lync2";
+			};
+			name = Release;
+		};
+		86F9E29D1CAA3E9100B610BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Lync2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshkliu.Lync2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Lync2;
+			};
+			name = Debug;
+		};
+		86F9E29E1CAA3E9100B610BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Lync2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshkliu.Lync2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Lync2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86F9E2691CAA3E9100B610BD /* Build configuration list for PBXProject "Lync2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F9E2941CAA3E9100B610BD /* Debug */,
+				86F9E2951CAA3E9100B610BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86F9E2961CAA3E9100B610BD /* Build configuration list for PBXNativeTarget "Lync2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F9E2971CAA3E9100B610BD /* Debug */,
+				86F9E2981CAA3E9100B610BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86F9E2991CAA3E9100B610BD /* Build configuration list for PBXNativeTarget "Lync2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F9E29A1CAA3E9100B610BD /* Debug */,
+				86F9E29B1CAA3E9100B610BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86F9E29C1CAA3E9100B610BD /* Build configuration list for PBXNativeTarget "Lync2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F9E29D1CAA3E9100B610BD /* Debug */,
+				86F9E29E1CAA3E9100B610BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86F9E2661CAA3E9100B610BD /* Project object */;
+}
