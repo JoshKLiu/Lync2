@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86560E801CDED33E0078BA8E /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86560E7F1CDED33E0078BA8E /* WebViewController.swift */; };
+		869263D31CBDFE48002ED544 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 869263D21CBDFE48002ED544 /* Test.m */; };
 		86F9E2721CAA3E9100B610BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F9E2711CAA3E9100B610BD /* AppDelegate.swift */; };
 		86F9E2741CAA3E9100B610BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F9E2731CAA3E9100B610BD /* ViewController.swift */; };
 		86F9E2771CAA3E9100B610BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F9E2751CAA3E9100B610BD /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		86F9E27C1CAA3E9100B610BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F9E27A1CAA3E9100B610BD /* LaunchScreen.storyboard */; };
 		86F9E2871CAA3E9100B610BD /* Lync2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F9E2861CAA3E9100B610BD /* Lync2Tests.swift */; };
 		86F9E2921CAA3E9100B610BD /* Lync2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F9E2911CAA3E9100B610BD /* Lync2UITests.swift */; };
+		86F9E2A11CAA526F00B610BD /* linkedin-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F9E2A01CAA526F00B610BD /* linkedin-sdk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86560E7F1CDED33E0078BA8E /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		869263D11CBDFE48002ED544 /* Lync2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lync2-Bridging-Header.h"; sourceTree = "<group>"; };
+		869263D21CBDFE48002ED544 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		86F9E26E1CAA3E9100B610BD /* Lync2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lync2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F9E2711CAA3E9100B610BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86F9E2731CAA3E9100B610BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,7 @@
 		86F9E28D1CAA3E9100B610BD /* Lync2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lync2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F9E2911CAA3E9100B610BD /* Lync2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lync2UITests.swift; sourceTree = "<group>"; };
 		86F9E2931CAA3E9100B610BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F9E2A01CAA526F00B610BD /* linkedin-sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "linkedin-sdk.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86F9E2A11CAA526F00B610BD /* linkedin-sdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +85,7 @@
 		86F9E2651CAA3E9100B610BD = {
 			isa = PBXGroup;
 			children = (
+				86F9E29F1CAA525800B610BD /* Frameworks */,
 				86F9E2701CAA3E9100B610BD /* Lync2 */,
 				86F9E2851CAA3E9100B610BD /* Lync2Tests */,
 				86F9E2901CAA3E9100B610BD /* Lync2UITests */,
@@ -99,10 +108,13 @@
 			children = (
 				86F9E2711CAA3E9100B610BD /* AppDelegate.swift */,
 				86F9E2731CAA3E9100B610BD /* ViewController.swift */,
+				86560E7F1CDED33E0078BA8E /* WebViewController.swift */,
 				86F9E2751CAA3E9100B610BD /* Main.storyboard */,
 				86F9E2781CAA3E9100B610BD /* Assets.xcassets */,
 				86F9E27A1CAA3E9100B610BD /* LaunchScreen.storyboard */,
 				86F9E27D1CAA3E9100B610BD /* Info.plist */,
+				869263D21CBDFE48002ED544 /* Test.m */,
+				869263D11CBDFE48002ED544 /* Lync2-Bridging-Header.h */,
 			);
 			path = Lync2;
 			sourceTree = "<group>";
@@ -123,6 +135,14 @@
 				86F9E2931CAA3E9100B610BD /* Info.plist */,
 			);
 			path = Lync2UITests;
+			sourceTree = "<group>";
+		};
+		86F9E29F1CAA525800B610BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86F9E2A01CAA526F00B610BD /* linkedin-sdk.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				869263D31CBDFE48002ED544 /* Test.m in Sources */,
 				86F9E2741CAA3E9100B610BD /* ViewController.swift in Sources */,
 				86F9E2721CAA3E9100B610BD /* AppDelegate.swift in Sources */,
+				86560E801CDED33E0078BA8E /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +421,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Lync2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshkliu.Lync2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lync2/Lync2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +439,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Lync2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshkliu.Lync2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lync2/Lync2-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +517,7 @@
 				86F9E2981CAA3E9100B610BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86F9E2991CAA3E9100B610BD /* Build configuration list for PBXNativeTarget "Lync2Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +526,7 @@
 				86F9E29B1CAA3E9100B610BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86F9E29C1CAA3E9100B610BD /* Build configuration list for PBXNativeTarget "Lync2UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +535,7 @@
 				86F9E29E1CAA3E9100B610BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
